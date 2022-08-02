@@ -1,0 +1,55 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=cyan,}
+\usepackage{booktabs}
+\usepackage{textgreek}
+
+\input{../structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{EMG Lab 2: Reflex Hammer Circuit}
+\author{BIOE 385 Bioinstrumentation Laboratory} 
+\date{}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\large
+\maketitle
+
+\section*{Goals}
+\begin{enumerate}
+	\item Practice soldering
+	\item Understand and build a reflex hammer circuit
+\end{enumerate}
+
+\section*{Pre-lab Assignment}
+Review the pin out diagram for the reflex hammer. Draw out the circuit that you will need to collect data from the hammer, including resistor values and power supplies. What do you need to connect to each one of the pin outputs in the hammer? List and show the pins that need to be connected. Plan how you will use the ELVIS protoboard to power the hammer and view the results. The voltage that will come out of the hammer is very low. Start by planning a gain of approximately 20X for your amplification. Draw out a diagram to indicate your plans.
+
+\begin{figure}[h]
+    	\includegraphics[width=0.4\textwidth]{lab_2_fig_1.jpg}
+    	\includegraphics[width=0.15\textwidth]{lab_2_fig_2.jpg}
+    	\centering
+		\end{figure}
+
+\section*{In-lab Assignment}
+\subsection*{Reflex Hammer Circuit}		
+Create a reflex hammer circuit on the protoboard. You should be able to view the voltage from the reflex hammer on the ELVIS oscilloscope.
+
+\subsection*{Soldering}
+At some time during the lab, each pair of students will go to soldering station and get a lesson (if needed) in how to solder. You will solder wires onto the pins that you need on a generic DB-9 connector. Both partners should practice the soldering. Be careful so that you do not short any pins or melt the plastic housing. Get initials from the instructor on your paper indicating you have completed this task.
+
+\begin{info}
+	Additional task ideas if you have time (highly recommended):
+	\begin{itemize}
+		\item Plan and implement a way to collect and view the signal from the reflex hammer in LabVIEW. Try different types of graphs and charts. What will work best for your needs? You may also begin the circuit steps to building the EMG signal amplifier.
+	\end{itemize}
+\end{info}
+
+\end{document}

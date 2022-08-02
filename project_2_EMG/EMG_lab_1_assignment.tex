@@ -1,0 +1,62 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=cyan,}
+\usepackage{booktabs}
+\usepackage{textgreek}
+
+\input{../structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{EMG Lab 1: In Class Assignment}
+\author{BIOE 385 Bioinstrumentation Laboratory} 
+\date{\textit{Print a copy of this packet and bring it to lab!}}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\large
+\maketitle
+
+\textbf{Student Name:}\hfill 	\textbf{Total Grade:\ \ \ \ /15}\vspace{0.5cm}
+
+\textbf{Student Name:}\hfill 	\textbf{Total Grade:\ \ \ \ /15}\vspace{0.5cm}
+
+\textbf{Student Name:}\hfill 	\textbf{Total Grade:\ \ \ \ /15}\\
+
+Have the Instructor or Teaching Assistant initial that you have demonstrated successful completion of each task where designated.
+
+\subsection*{Charging and Discharging a Capacitor}
+\begin{itemize}
+	\item Build RC circuit. What is the time constant of this circuit? Show your calculations.\vspace{3cm}
+
+	\item Reduce the time scale. Estimate the time it takes for the capacitor voltage to go from its minimal value to 95\% of its maximal value. Divide this estimate by 3 to get a measure of the time constant.\vspace{3cm}\\TA check: \underline{\hspace{2cm}}
+\end{itemize}
+
+\subsection*{Passive Filters}
+\begin{itemize}
+	\item Calculate values for the cut-off frequency and the time constant.\vspace{3cm}
+	\item Demonstrate 1st order passive filter. What happens to the output signal? Describe. Run the Bode Analyzer and log your data.\vspace{3cm}
+	\item Create a second order filter with the same cutoff frequencies as in the previous exercise. How do the magnitude ratio and phase difference between the input and output behave? Run the Bode Analyzer and log your data.\vspace{3cm}
+	\item Create a third order filter with the same cutoff frequencies as in the previous exercise. Run the Bode Analyzer and log your data.\vspace{3cm}\\TA check: \underline{\hspace{2cm}}
+\end{itemize}
+
+\subsection*{Active Filters}
+\begin{itemize}
+	\item Calculate values for the cut-off frequency and the time constant.\vspace{3cm}
+	\item Implement the 1st order active Low-Pass filter shown in your notes with R1=R2=10k\textOmega\ and C2=0.1\textmu F. What happens to the output signal? Describe. Run the Bode Analyzer and log your data.\vspace{4cm}
+	\item Create an active high-Pass filter with the same cut-off frequencies as in the previous exercise. You can consult your textbook to learn how to wire it up.
+	\item Combine the Bode Plots from the filters you have built so far on one Excel plot. The plots need to be clearly labeled(i.e. resistor values, filter type, desired cut-off frequency). \underline{Compare and contrast the output of the filters} (use the space below or your excel spreadsheet). Show to the instructor or a TA.\vspace{3cm}\\TA check: \underline{\hspace{2cm}}
+\end{itemize}
+
+\subsection*{Band-pass Filters}
+\begin{enumerate}
+	\item Design and build a band-pass filter. Select your 2 cut-off frequencies. You can use active or passive filters. Draw your circuit, report your desired cut-off frequencies and justify your choices in resistors and capacitors values.\vspace{5cm}
+	\item Create a Bode Plot of the output from your filter. Demonstrate to the instructor or a TA.\vspace{3cm}\\TA check: \underline{\hspace{2cm}}
+\end{enumerate}
+\end{document}

@@ -1,0 +1,157 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=cyan,}
+\usepackage{booktabs}
+\input{../structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{BIOE 385: Bioinstrumentation Laboratory}
+\author{Fall 2022} 
+\date{}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle
+\subsection*{Instructor}
+Dr. James Long\\
+james.long@rice.edu\\
+BRC 765
+
+\subsection*{Teaching Assistants}
+\begin{table}[h!]
+	\centering
+\begin{tabular}[h!]{ccc}
+\textit{Monday} & \textit{Wednesday} & \textit{Thursday}\\
+Drew Bonham & Samira Hajebrahimi & Nicole Sevilla\\
+drew.bonham@rice.edu & samira.hajebrahimi@rice.edu & nicole.sevilla@rice.edu
+\end{tabular}
+\end{table}
+
+\subsection*{Office Hours}
+\textit{Lab (BRC 230)}: Wednesday and Thursday 4pm-5pm \href{https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ19i_iZrsLHMbg983Sc8Ba-n8eNIvP47my_SvYdhHBW3fp4oDdNPuTq5G1XT8_5WwGGL0l7_rde}{by appointment} (also found at \href{https://bit.ly/bioe385officehours}{bit.ly/bioe385officehours})\\\\
+\textit{General (BRC 765)}: Monday 4pm-5pm\\\\
+Please email for appointments outside the above times.
+
+\subsection*{Course Website}
+The course website, which includes all necessary documents, is hosted on Github. You may access it through \href{https://jameslong12.github.io/BIOE_385}{this link} or the following: \href{https://bit.ly/bioe385_f22}{bit.ly/bioe385\_f22}. Assignment submission and grading will be hosted on Canvas.
+
+\subsection*{Course Description}
+In this laboratory course, you will learn to design, build, and test biomedical instrumentation using the NI ELVIS hardware system and LabView software. Students will work in teams to complete two design projects: an Optical Immunoassay system and an EMG/Reflex measurement device. Mastery of instrumentation principles and the below course objectives will be evaluated with pre/in-lab assignments, reports, project demos, and written/practical lab exams.
+
+\subsection*{Course Objectives}
+By the end of the course, students will demonstrate the ability to:
+
+\begin{enumerate}
+	\item Design, build, and troubleshoot electrical circuits to acquire engineering measurements.
+	\item Analyze and present acquired data in a user-friendly manner.
+	\item Solve open-ended engineering problems, taking resource constraints and design criteria into consideration.
+	\item Communicate and justify engineering decisions and designs in a written document.
+\end{enumerate}
+
+\subsection*{Prerequisites}
+You must have successfully completed ELEC 243 and the associated lab course to complete this class. No exceptions.
+
+\subsection*{Textbook}
+Paul Scherz, \underline{Practical Electronics for Inventors}, 4th Ed., McGraw Hill, 2016.\\
+
+This textbook is available for free online as follows:
+
+\begin{enumerate}
+	\item If you are accessing from off-campus, \href{https://kb.rice.edu/82263}{log in to the Rice University VPN}
+	\item Using OneSearch on the \href{https://library.rice.edu}{Fondren Library Website}, search for "Practical Electronics for Engineers"
+	\item In the search results, click the link to McGraw Hill Access Engineering
+	\item Double-check that you are browsing the most recent edition (4th ed., pub. 2016)
+\end{enumerate}
+
+\subsection*{Safety}
+Laboratory environments include inherent dangers and thus strict compliance to safety measures is important. All students are expected to work safely and to ask for assistance when uncertain. Absolutely no eating, drinking or gum chewing will be allowed at any place or time in the lab.
+
+\subsection*{Attendance Policy}
+Students are required to attend ALL sessions of the laboratory. Exceptions for illness, family emergencies, or other excusable absences may be granted with instructor approval on a case-by-case basis. Any make-ups for valid absences must be done at the convenience of the instructor and your lab partner.
+
+\subsection*{Grading Policy}
+
+\begin{table}[h!]
+	\centering
+\begin{tabular}[h!]{cccc}
+\toprule
+	Category & Submissions & Total Points & \% Final Grade\\
+	\midrule
+	Pre-Labs/In-Labs & In class & 155 & 31\%\\
+	Miscellaneous & Canvas/In class & 25 & 5\%\\
+	Lab Reports & Canvas & 120 & 24\%\\
+	Project Demos & In class & 100 & 20\%\\
+	Exams & In class & 100 & 20\%\\
+	\bottomrule
+\end{tabular}
+\end{table}
+
+Penalties may be applied for the following violations:
+\begin{itemize}
+	\item -5 points: Unsafe laboratory practices, leaving lab area messy, or not returning components correctly (per event)
+	\item -50 points: Failure to return lab supplies at the end of the semester. A complete list of supplies can be found \href{https://jameslong12.github.io/BIOE_385/general_course_materials/supplies.pdf}{here}.
+\end{itemize}
+
+For a full list of assignments and due dates, \href{https://jameslong12.github.io/BIOE_385/general_course_materials/assignments.pdf}{see here}.
+
+\subsubsection*{Late Policy}
+Pre-lab and In-lab assignments will not be accepted late without a valid excused absence. Late reports will be penalized 30\% of the assignment value per day.
+
+\subsubsection*{Regrade Policy}
+If you believe that an error was made in grading your assignments, you should write a \underline{short} justification of your claim and attach it to the original homework assignment. You can bring the documents to class or to my office (BRC 765).  Make sure to write your contact email so I can review your concern(s) and respond to you directly. The “statute of limitations” for submitting such claims is one week after the assignment was returned.  I will respond to re-grading requests – but note that the entire report might be re-graded, not just the section in question, in order to ensure consistency and fairness. 
+
+\subsection*{Honor Code Policy}
+
+Much of the learning in this lab will be done through coaching and interaction with other students, the instructor, and the TAs. It is important that a collegial environment is present. You and your partner(s) will be responsible for making and justifying design decisions in order to satisfy the requirements of each device. Success in each project will require solving open-ended problems - while the instructor and TAs will provide guidance, ultimately it is up to your team to overcome design challenges and produce working instruments.\\
+Certain aspects of the course are meant to evaluate individual mastery. In particular, the Pre-Labs, Post-Lab Feedback, Lab Reports for the OIA project, and Lab Exams are to be completed individually. For Lab Reports, you may consult the Lab Protocols, Course Notes, other textbooks, review articles, and published research papers, citing references as appropriate. You many NOT consult written reports, posters, data calculations, graphs, or any other material from previous BIOE 383 or 385 laboratory classes. While written Lab Reports for the EMG project will be submitted as a group, each student is expected to do ALL data calculations, graphing, tabulating, etc. themselves.
+
+\subsection*{Schedule}
+Please see the \href{https://registrar.rice.edu/calendars/fall-semester-2022}{Rice University Academic Calendar} for important administrative (add/drop/withdraw) dates.\\
+
+{\color{red} Project 1: Optical Immunoassay System (OIA)}\\
+
+{\color{blue} Project 2: EMG Reflex Measurement Device (EMG)}\\
+
+\begin{table}[h!]
+	\centering
+\begin{tabular}[h!]{cccc}
+\toprule
+	Week & Lab/Topic & Reading & Pre-Lab/Report\\
+	\midrule
+	1 (08/22) & {\color{red} OIA 1: Introduction to ELVIS} & 7.1, 2.1-3, 2.9-12, 2.14, 2.16 & {\color{red} Welcome Video Due}\\
+	2 (08/29) & {\color{red} OIA 2: Photodetector Circuits} & 5.3, 5.5, 7.2, 2.20, 2.23 & {\color{red} Prelab 2 Due}\\
+	\midrule
+	3 (09/05) & Labor Day: No lab this week & &\\
+	\midrule
+	4 (09/12) & {\color{red} OIA 3: LabVIEW Interface} & 3.1, 3.5, 3.6, 7.3, 7.4 & {\color{red} Prelab 3 Due}\\
+	5 (09/19) & {\color{red} OIA 4: Finalize Projects} & &\\
+	6 (09/26) & {\color{red} OIA 5: \textbf{Project Demos}} & & {\color{red} \textbf{OIA Report Due}}\\
+	7 (10/03) & {\color{red} OIA 6: Exam 1} & &\\
+	\midrule
+	8 (10/10) & Midterm Recess: No lab this week & &\\
+	\midrule
+	9 (10/17) & {\color{blue} EMG 1: Passive and Active Filters} & 2.31, 7.1-7, 8.1-7, 9 & \\
+	10 (10/24) & {\color{blue} EMG 2: Reflex Hammer Circuit} & & {\color{blue} Prelab 2 Due}\\
+	11 (10/31) & {\color{blue} EMG 3: Measurement Circuit} & & {\color{blue} Prelab 3 Due}\\
+	12 (11/07) & {\color{blue} EMG 4: LabVIEW Interface} & & {\color{blue} Prelab 4 Due}\\
+	& & & {\color{blue} \textbf{EMG Report Draft Due}}\\
+	13 (11/14) & {\color{blue} EMG 5: Finalize Projects} & & \\
+	\midrule
+	14 (11/21) & Thanksgiving Recess: No lab this week & & \\
+	\midrule
+	15 (11/28) & {\color{blue} EMG 6: \textbf{Project Demos}} & & {\color{blue} \textbf{EMG Report Due}}\\
+	Finals & {\color{blue} EMG 7: Exam 2} & &\\
+	\bottomrule
+\end{tabular}
+\end{table}
+
+
+\end{document}

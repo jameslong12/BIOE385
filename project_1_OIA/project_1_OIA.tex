@@ -1,0 +1,79 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=cyan,}
+
+\input{../structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Project 1: Optical Immunoassay Assignment (OIA)}
+\author{BIOE 385 Bioinstrumentation Laboratory} 
+\date{}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\large
+\maketitle
+\section*{Introduction}
+You are an engineer working for a Rice University initiated non-profit startup company that is focusing its efforts on developing inexpensive point of care diagnostic systems for use in the developing world. You have been tasked with designing the electronic circuitry for an optical immunoassay system that can test whole blood for many particular analytes without requiring expensive laboratory intensive processing. Fortunately, because Rice University is a haven for nanotechnology research, you can take advantage of nanoshell technology to build such a device. \href{https://github.com/jlongc12/BIOE_385/blob/main/project_1_OIA/immunoassay_article.pdf}{Please see the journal article that explains the technique you will use: \textit{“A Whole Blood Immunoassay Using Gold Nanoshells”}.}\\
+
+If you look carefully at the technique described in the paper, rather than using a spectrophotometer which will test the light transmission through a sample at all wavelengths, your device will simply need to test the light at one wavelength. For a final device, your company may want to run the test at more than one wavelength, but for the purposes of this class, you can prove the concepts with one wavelength. The nanoshells that you will be testing will attenuate light significantly at a wavelength of 850 nm (see \textit{“Spectra of Calibration Samples”} in the course website). The device you make will be housed in a small plastic container with the cuvette held in a film canister and must be portable for physicians or nurses going into the field. A designer has proposed the following for the design:
+
+\begin{figure}[h]
+    \includegraphics[width=0.8\textwidth]{fig_1.jpg}
+    \centering
+\caption{Diagram of ImmunoAsker (Courtesy Team Immosaic 2004-2005, Blair Bossart, Ashvin Dewan, JeffreyDietrich, Laura Knezevic, Lisa Justin)}
+\label{fig_1}
+\end{figure}
+
+\begin{figure}[h]
+    \includegraphics[width=0.6\textwidth]{fig_2.jpg}
+    \centering
+\caption{Photograph of ImmunoAsker}
+\label{fig_2}
+\end{figure}
+
+Simply put, you need to build a circuit that contains an LED at the correct wavelength to send a beam of light through your sample in a cuvette and a photodetector to detect your nanoshell aggregation.\\
+
+Since this has not been done previously, you have decided that you need to build and test two possible circuit designs for developing your immunoassay devices. \textbf{After you build detectors from both types of circuit designs}, you will be able to make a recommendation to your boss about how to build the final device.\\
+
+Some things you should consider in making recommendations to your boss: cost, accuracy, difficulty of implementation, and size variation.\\
+
+\section*{Assignment}
+
+\begin{enumerate}
+	\item Build a detector using a circuit from the FDS 100 photodetector spec sheet that can be found in the course website.
+	\item Build a circuit that will convert current to voltage (see Photodiode signal conditioning circuit example later in this document)
+	\item Build a LabView VI to collect data from both circuits so that you can test and troubleshoot them.
+	\item Write a good concise report to your boss that contains:
+	\begin{enumerate}
+		\item Executive summary
+		\item Explanation of your goals and methods
+		\item Adequate description of your work including:
+		\begin{enumerate}
+			\item circuit diagrams
+			\item theory
+			\item component rationale
+			\item description and examples of what LabView program can do
+		\end{enumerate}
+		\item Testing and Results
+		\begin{enumerate}
+			\item data and plots demonstrating the results obtained
+			\item accuracy and precision of each design
+		\end{enumerate}
+		\item Recommendation for the approach your company should take to develop these devices.
+		\begin{enumerate}
+			\item limitations of design and possible improvements
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+A Report Grading Rubric for your final report will be available in the course website.\\
+This project should be completed before Midterm Recess (see schedule for deadlines). For each week there are a set of guidelines and tasks to complete. However, simply completing the tasks for each week is not enough to be successful in the whole project. Successful completion and true understanding of each task will help you complete the project on time. You are strongly encouraged to look ahead, think about the next steps for the project, and add features you believe would be helpful as you go along. The final week of this section will be a lab test. You can expect to explain and demonstrate your device at your design demonstration.
+\end{document}

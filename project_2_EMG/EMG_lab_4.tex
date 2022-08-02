@@ -1,0 +1,48 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=cyan,}
+\usepackage{booktabs}
+\usepackage{textgreek}
+
+\input{../structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{EMG Lab 4: LabView Interface for EMG}
+\author{BIOE 385 Bioinstrumentation Laboratory} 
+\date{}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\large
+\maketitle
+
+\section*{Goals}
+\begin{enumerate}
+	\item Modify properties of the DAQ to acquire the desired data
+	\item Create digital filters using LabView
+	\item Modify properties of waveform graphs and charts to correctly display the desired data (display correct labels, units, scaling, etc)
+	\item Measure the time associated with a specific event using time stamps, counting iterations OR using other methods that allow a millisecond resolution
+	\item Use a variety of controls and indicators to create an easy to use VI
+\end{enumerate}
+
+\section*{Pre-lab Assignment}
+Draw a proposed graphical user interface for your project. (What I mean here is show me what the screen should look like. What data values will you show, what graphs, tables etc?) What do you think the user of your device will want to see? What features do you think are most important? 
+
+\section*{In-lab Assignment}
+During this lab section you will build your LabVIEW interface to collect and display data from your EMG device. You are free to do this in any way you see fit. The following items should be considered:
+
+\begin{enumerate}
+	\item Your target result is reflex time. This result should ultimately be prominently displayed.
+	\item You should have a graph/graphs (or charts if desired) that show both the hammer signal and EMG signal.
+	\item If the user is expected to manipulate anything to get the desired result, it should be simple for them to do so.
+\end{enumerate}
+Strive to develop the best interface you can!
+
+\end{document}
