@@ -4,6 +4,6 @@ title: "BIOE 385"
 description: "Course materials and website for BIOE 385 Fall 2022. For questions or additional materials, please contact James Long or see https://github.com/jameslong12/BIOE385."
 
 header_pages:
+  - Resources.md
   - OIA.md
   - EMG.md
-  - general_course_materials/syllabus.pdf
