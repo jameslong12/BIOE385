@@ -1,6 +1,6 @@
 ---
-title: BIOE 385
-subtitle: test subtitle
+title: "BIOE 385: Bioinstrumentation Laboratory"
+subtitle: "test subtitle"
 ---
 
 # Welcome to BIOE 385!
