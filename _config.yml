@@ -1,10 +1,11 @@
 theme: minima
 title: "BIOE 385"
+description: 
 
 author:
-  name: James Long
-  email: james.long@rice.edu
+	name: James Long
+	email: james.long@rice.edu
 
 header_pages:
-  - OIA.md
-  - EMG.md
+	- OIA.md
+	- EMG.md
