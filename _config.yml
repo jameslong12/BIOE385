@@ -1,2 +1,12 @@
 theme: jekyll-theme-cayman
 title: BIOE 385 Bioinstrumentation Laboratory
+
+navbar-links:
+  Syllabus: "https://jameslong12.github.io/BIOE385/general_course_materials/syllabus.pdf"
+  Canvas:
+    - "Monday": "https://canvas.rice.edu/courses/52096"
+    - "Wednesday": "https://canvas.rice.edu/courses/51530"
+    - "Thursday": "https://canvas.rice.edu/courses/51533"
+  Projects:
+    - "\#1: OIA": "OIA"
+    - "\#2: EMG": "EMG"
