@@ -25,4 +25,4 @@
 - [Full supply list](general_course_materials/supply_list.pdf)
 - [Data sheets](https://github.com/jameslong12/BIOE385/tree/main/additional_resources/data_sheets)
 - [LabView resources](https://github.com/jameslong12/BIOE385/tree/main/additional_resources/labview_guides)
-- [General electronics resources](https://github.com/jameslong1212/BIOE385/tree/main/additional_resources/electronics_guides)
+- [General electronics resources](https://github.com/jameslong12/BIOE385/tree/main/additional_resources/electronics_guides)
