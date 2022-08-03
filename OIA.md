@@ -1,4 +1,8 @@
-# Project 1: Optical Immunoassay
+---
+title: "Project 1: Optical Immunoassay"
+description: "Fall 2022"
+---
+
 ![alt text](project_1_OIA/OIA_diagram.png)
 
 ### Project information

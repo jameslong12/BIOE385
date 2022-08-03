@@ -1,4 +1,8 @@
-# Project 2: EMG reflex
+---
+title: "Project 2: EMG Reflex"
+description: "Fall 2022"
+---
+
 ![alt text](project_2_EMG/EMG_diagram_2.jpeg)
 ![alt text](project_2_EMG/EMG_diagram.jpeg)
 
