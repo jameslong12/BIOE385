@@ -20,9 +20,9 @@
 	- [Thursday](https://canvas.rice.edu/courses/51533)
 
 ## Resources
-- [Project 1: Optical immunoassay](https://jameslong12.github.io/BIOE_385/OIA)
-- [Project 2: EMG reflex](https://jameslong12.github.io/BIOE_385/EMG)
+- [Project 1: Optical immunoassay](https://jameslong12.github.io/BIOE385/OIA)
+- [Project 2: EMG reflex](https://jameslong12.github.io/BIOE385/EMG)
 - [Full supply list](general_course_materials/supply_list.pdf)
-- [Data sheets](https://github.com/jameslong12/BIOE_385/tree/main/additional_resources/data_sheets)
-- [LabView resources](https://github.com/jameslong12/BIOE_385/tree/main/additional_resources/labview_guides)
-- [General electronics resources](https://github.com/jameslong1212/BIOE_385/tree/main/additional_resources/electronics_guides)
+- [Data sheets](https://github.com/jameslong12/BIOE385/tree/main/additional_resources/data_sheets)
+- [LabView resources](https://github.com/jameslong12/BIOE385/tree/main/additional_resources/labview_guides)
+- [General electronics resources](https://github.com/jameslong1212/BIOE385/tree/main/additional_resources/electronics_guides)
