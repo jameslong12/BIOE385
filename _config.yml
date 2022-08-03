@@ -3,9 +3,9 @@ title: "BIOE 385"
 description: Course materials and website for BIOE 385 Fall 2022. For questions or additional materials, please contact James Long or see the Github.
 
 author:
-	name: James Long
-	email: james.long@rice.edu
+  name: James Long
+  email: james.long@rice.edu
 
 header_pages:
-	- OIA.md
-	- EMG.md
+  - OIA.md
+  - EMG.md
