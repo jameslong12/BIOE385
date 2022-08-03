@@ -1,4 +1,4 @@
-theme: jekyll-theme-minima
+theme: minima
 
 header_pages:
   - OIA.md
