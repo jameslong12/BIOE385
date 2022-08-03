@@ -1,8 +1,8 @@
 ---
-title: "Project 1: Optical Immunoassay"
-description: "Fall 2022"
+title: "Project 1: OIA"
 ---
 
+## Optical Immunoassay
 ![alt text](project_1_OIA/OIA_diagram.png)
 
 ### Project information
