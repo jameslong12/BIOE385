@@ -1,6 +1,6 @@
 ---
 title: "BIOE 385: Bioinstrumentation Laboratory"
-description: "test subtitle"
+description: "Course website and materials for BIOE 385 Fall 2022"
 ---
 
 # Welcome to BIOE 385!
