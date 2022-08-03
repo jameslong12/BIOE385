@@ -1,9 +1,7 @@
 ---
 layout: home
-title: "BIOE 385: Bioinstrumentation Laboratory"
+title: "Welcome to BIOE 385!"
 ---
-
-# Welcome to BIOE 385!
 
 ![alt text](project_1_OIA/OIA_diagram.png)
 
