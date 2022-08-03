@@ -1,3 +1,8 @@
+---
+title: BIOE 385
+subtitle: test subtitle
+---
+
 # Welcome to BIOE 385!
 
 ![alt text](project_1_OIA/OIA_diagram.png)
