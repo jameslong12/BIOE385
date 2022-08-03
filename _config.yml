@@ -1,6 +1,4 @@
 theme: jekyll-theme-cayman
-title: BIOE 385 Bioinstrumentation Laboratory
-
 header_pages:
   - OIA.md
   - EMG.md
