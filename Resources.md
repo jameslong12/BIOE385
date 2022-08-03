@@ -5,6 +5,7 @@ title: "Resources"
 ### General course resources
 - [Syllabus](general_course_materials/syllabus.pdf)
 - [Full assignment list with deadlines](general_course_materials/assignments.pdf)
+- [Github](https://github.com/jameslong12/BIOE385)
 
 ### Projects
 - [Project 1: optical immunoassay](https://jameslong12.github.io/BIOE385/OIA)

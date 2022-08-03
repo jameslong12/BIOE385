@@ -14,7 +14,7 @@ title: "BIOE 385: Bioinstrumentation Laboratory"
 - [Syllabus](general_course_materials/syllabus.pdf)
 - Teaching team
 	- Instructor:
-		- [Dr. James Long (mailto:james.long@rice.edu)
+		- [Dr. James Long](mailto:james.long@rice.edu)
 		- Office: BRC 765
 	- TAs:
 		- *Monday:* [Drew Bonham](mailto:drew.bonham@rice.edu)
