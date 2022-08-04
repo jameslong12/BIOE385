@@ -7,6 +7,3 @@ header_pages:
   - Resources.md
   - OIA.md
   - EMG.md
-  
-plugins:
-  - jekyll-seo-tag
