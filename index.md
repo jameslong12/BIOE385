@@ -15,9 +15,9 @@ title: "Welcome to BIOE 385!"
 		- [Dr. James Long](mailto:james.long@rice.edu)
 		- Office: BRC 765
 	- TAs:
-		- *Monday:* [Drew Bonham](mailto:drew.bonham@rice.edu)
+		- *Monday:* [Nicole Sevilla](mailto:nicole.sevilla@rice.edu)
 		- *Wednesday:* [Samira Hajebrahimi](mailto:samira.hajebrahimi@rice.edu)
-		- *Thursday:* [Nicole Sevilla](mailto:nicole.sevilla@rice.edu)
+		- *Thursday:* [Drew Bonham](mailto:drew.bonham@rice.edu)
 		
 - Canvas sites (for assignment submission and grades)
 	- [Monday](https://canvas.rice.edu/courses/52096)
