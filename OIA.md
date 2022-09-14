@@ -7,6 +7,7 @@ title: "Project 1: OIA"
 
 ### Project information
 - [Assignment description and learning objectives](project_1_OIA/project_1_OIA.pdf)
+- [Demo rubric](project_1_OIA/OIA_demo_rubric.pdf)
 - [Report rubric](project_1_OIA/OIA_report_rubric.pdf)
 
 ### Weekly lab exercises

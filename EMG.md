@@ -10,6 +10,7 @@ title: "Project 2: EMG"
 - [Assignment description and learning objectives](project_2_EMG/project_2_EMG.pdf)
 - [Report draft rubric](project_2_EMG/EMG_report_DRAFT_rubric.pdf)
 - [Final report rubric](project_2_EMG/EMG_report_rubric.pdf)
+- [Demo rubric](project_2_EMG/EMG_demo_rubric.pdf)
 
 ### Weekly lab exercises
 - Week 1 (10/17): [Lab protocol](project_2_EMG/EMG_lab_1.pdf) and [in class assignment](project_2_EMG/EMG_lab_1_assignment.pdf)
